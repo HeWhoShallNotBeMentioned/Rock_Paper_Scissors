@@ -1,13 +1,13 @@
 class String
   define_method(:rock_paper) do |opponent|
     if self==("rock") && opponent==("scissors")
-      true
+      "Rock wins"
     elsif self==("paper") && opponent==("rock")
-      true
+      "Paper wins"
     elsif self==("scissors") && opponent==("paper")
-      true
+      "Scissors wins"
     elsif self==opponent
-      false
+      "Tie"
     end
   end
 end
