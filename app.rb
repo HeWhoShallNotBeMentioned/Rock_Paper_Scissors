@@ -1,6 +1,6 @@
 require('sinatra')
 require('sinatra/reloader')
-require('.lib/rock_paper')
+require('./lib/rock_paper')
 also_reload('lib/**/*.rb')
 
 get('/') do
